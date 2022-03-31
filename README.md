@@ -12,7 +12,7 @@
   <img align="center" alt="Jarbas-HTML" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg">
   <img align="center" alt="Jarbas-CSS" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg">
   
-  <img align="right" alt="Rafa-pic" height="150" style="border-radius:50px;" src="https://media.discordapp.net/attachments/639956127056134178/890373478988013628/Publicacoes_Instagram_1_1.png?width=676&height=676">
+  <img align="right" alt="Gitcat-pic" height="150" style="border-radius:50px;" src="https://github.com/jjgouveia/jjgouveia/blob/main/mona-whisper.gif">
 </div>
   
   ##
