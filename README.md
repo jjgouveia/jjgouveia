@@ -1,7 +1,5 @@
 <h1 align='center'>
   Olá, meu nome é Jarbas (Jr) Gouveia!
-  <br/>
-  Bem vindo a minha página 😄
 </h1>
 
 <p align='center'>
