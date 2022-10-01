@@ -1,47 +1,46 @@
-<h1 align='center'>
-  Olá, meu nome é Jarbas (Jr) Gouveia!
+<h1 style="text-align: center">Estudante de Desenvolvimento Web Full Stack na <a href="https://betrybe.com">Trybe</a>.</br>
 </h1>
 
-<p align='center'>
-  Pessoa estudante de Desenvolvimento Web Full-Stack
-</p>
-
-### Sobre mim:
-
-<p>
-  <em>
-    Tenho 27 anos e sou natural de Recife/PE. Estou seguindo uma jornada - árdua - para me tornar um desenvolvedor.
-  </em>
-</p>
-
-- 🌱 Atualmente estou aprendendo JavaScript, React.JS e Jest/RTL;
-- 🚀 Estudante da Trybe;
-- 📫 Meu email: gouvik.dev@gmail.com;
-  
-
-### 📊 Metas 2022:
-
-- :abacus: Expandir meu portfólio;
-  
-- 📖 Aprender TypeScript;
-  
-- 💯 Conseguir finalizar os projetos da Trybe com 100% dos requisitos obrigatórios concluídos;
-
-- 🤝 Contribuir em pelo menos um projeto open-source;
 
 
-### ⚡ Tecnologias:
+```javascript
+const aboutMe = {
+   briefDescription: "a strange carbon&coffee-based lifeform"
+   pronouns: "he" | "him",
+   code: ["JavaScript", "HTML", "CSS"],
+   technologies: {
+      frontEnd: {
+         js: ["React", "Redux"],
+         css: ["Bootstrap", "Material Design"],
+         misc: ["Jest", "RTL"]
+      },
+      backEnd: {
+         js: ["Node", "Express"],
+         misc: ["Bash", "Chai", "Sinon", "Docker", "Git"]
+      },
+      databases: ["mySQL"]
+   },
+   languages: {
+      portuguese: {
+        level: "native"
+    },
+      english: {
+        level: "intermediate"
+    }
+   },
+   currentOccupation: "lifelong learner",
+   challenge: "I'm working towards being able to achieve all my goals",
+};
+```
 
-Estas são algumas das tecnologias e ferramentas que trabalho:
 
-[![Minhas Habilidades](https://skillicons.dev/icons?i=html,css,js,jest,react,git,bootstrap
-)](https://skillicons.dev)
+---
 
 ### 📈 Minhas Estatísticas
 
-| Minhas Estatísticas                                                                                                                                                            | Principais Linguagens                                                                                                                                                                     |
-| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| ![Umutambyi Gad's github stats](https://github-readme-stats.vercel.app/api?username=jjgouveia&show_icons=true&hide_border=true&count_private=true&theme=jolly) | ![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=jjgouveia&langs_count=10&count_private=true&hide_border=true&theme=jolly&layout=compact) |
+| Minhas Estatísticas                                                                                                                                         | Principais Linguagens                                                                                                                                                  |
+| ------------------------------------------------------------------------------------------------------------------------------------------------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| ![jjgouveia's github stats](https://github-readme-stats.vercel.app/api?username=jjgouveia&show_icons=true&hide_border=true&count_private=true&theme=jolly) | ![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=jjgouveia&langs_count=10&count_private=true&hide_border=true&theme=jolly&layout=compact) |
 
 💬 Quer me conhecer?
 
