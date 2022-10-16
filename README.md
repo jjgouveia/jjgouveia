@@ -5,7 +5,7 @@
 
 ```javascript
 const aboutMe = {
-   briefDescription: "a strange carbon&coffee-based lifeform"
+   briefDescription: "a strange carbon&coffee-based lifeform",
    pronouns: "he" | "him",
    code: ["JavaScript", "HTML", "CSS"],
    technologies: {
