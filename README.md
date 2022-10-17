@@ -29,7 +29,7 @@ const aboutMe = {
     }
    },
    currentOccupation: "lifelong learner",
-   challenge: "I'm working towards being able to achieve all my goals",
+   phrase: "whatever you're looking for is also looking for you",
 };
 ```
 
