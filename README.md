@@ -7,7 +7,7 @@
 const aboutMe = {
    briefDescription: "a strange carbon&coffee-based lifeform",
    pronouns: "he" | "him",
-   code: ["JavaScript", "HTML", "CSS", "NodeJS", "SQL],
+   code: ["JavaScript", "HTML", "CSS", "NodeJS", "SQL"],
    technologies: {
       frontEnd: {
          js: ["React", "Redux"],
