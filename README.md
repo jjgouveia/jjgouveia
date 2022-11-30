@@ -7,7 +7,7 @@
 const aboutMe = {
    briefDescription: "a strange carbon&coffee-based lifeform",
    pronouns: "he" | "him",
-   code: ["JavaScript", "HTML", "CSS", "NodeJS", "SQL"],
+   code: ["JavaScript", "HTML", "CSS", "NodeJS", "SQL", "TypeScript"],
    technologies: {
       frontEnd: {
          js: ["React", "Redux"],
@@ -15,17 +15,18 @@ const aboutMe = {
          misc: ["Jest", "RTL"]
       },
       backEnd: {
-         js: ["Node", "Express"],
-         misc: ["Bash", "Chai", "Sinon", "Docker", "Git"]
+         js: ["Node", "Express", "TypeScript", "Java"],
+         misc: ["Bash", "Chai", "Sinon", "Sequelize"]
       },
-      databases: ["mySQL"]
+      databases: ["mySQL"],
+      misc: ["Docker", "Git", "Bash"],
    },
    languages: {
       portuguese: {
         level: "native"
     },
       english: {
-        level: "intermediate"
+        level: "intermediate-79"
     }
    },
    currentOccupation: "lifelong learner",
