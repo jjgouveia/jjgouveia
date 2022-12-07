@@ -18,7 +18,7 @@ const aboutMe = {
          js: ["Node", "Express", "TypeScript", "Java"],
          misc: ["Bash", "Chai", "Sinon", "Sequelize"]
       },
-      databases: ["mySQL"],
+      databases: ["mySQL", "mongoDB"],
       misc: ["Docker", "Git", "Bash"],
    },
    languages: {
