@@ -10,7 +10,7 @@ const aboutMe = {
    code: ["JavaScript", "HTML", "CSS", "NodeJS", "SQL", "TypeScript"],
    technologies: {
       frontEnd: {
-         js: ["React", "Redux"],
+         js: ["React", "Redux", "Angular"],
          css: ["Bootstrap", "Material Design"],
          misc: ["Jest", "RTL"]
       },
