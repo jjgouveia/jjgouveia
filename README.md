@@ -11,7 +11,7 @@ const aboutMe = {
    technologies: {
       frontEnd: {
          js: ["React", "Redux", "Angular"],
-         css: ["Bootstrap", "Material Design"],
+         css: ["Bootstrap", "Material Design", "Tailwind CSS"],
          misc: ["Jest", "RTL"]
       },
       backEnd: {
@@ -19,6 +19,7 @@ const aboutMe = {
          misc: ["Bash", "Chai", "Sinon", "Sequelize"]
       },
       databases: ["mySQL", "mongoDB"],
+      orm: ["Sequelize", "Mongoose"],
       misc: ["Docker", "Git", "Bash"],
    },
    languages: {
@@ -29,7 +30,7 @@ const aboutMe = {
         level: "intermediate-79"
     }
    },
-   softskills: ["comunicação", "proatividade", "autoliderança", "trabalho em equipe"],
+   soft-skills: ["comunicação", "proatividade", "autoliderança", "trabalho em equipe"],
    currentOccupation: "lifelong learner",
    phrase: "whatever you're looking for is also looking for you",
 };
