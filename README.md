@@ -15,11 +15,11 @@ const aboutMe = {
          misc: ["Jest", "RTL"]
       },
       backEnd: {
-         js: ["Node", "Express", "TypeScript", "Java"],
+         js: ["Node", "Express", "Adonis" "TypeScript"],
          misc: ["Bash", "Chai", "Sinon", "Sequelize"]
       },
-      databases: ["mySQL", "mongoDB"],
-      orm: ["Sequelize", "Mongoose"],
+      databases: ["mySQL", "mongoDB", "sqLite"],
+      orm: ["Sequelize", "Mongoose", "Lucid" ],
       misc: ["Docker", "Git", "Bash"],
    },
    languages: {
