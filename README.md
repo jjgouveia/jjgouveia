@@ -41,9 +41,12 @@ const aboutMe = {
 
 ### 📈 Minhas Estatísticas
 
+
+
 | Minhas Estatísticas                                                                                                                                         | Principais Linguagens                                                                                                                                                  |
 | ------------------------------------------------------------------------------------------------------------------------------------------------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | ![jjgouveia's github stats](https://github-readme-stats-one-virid-55.vercel.app/api?username=jjgouveia&show_icons=true&hide_border=true&count_private=true&theme=jolly) | ![Top Languages](https://github-readme-stats-one-virid-55.vercel.app/api/top-langs/?username=jjgouveia&langs_count=10&count_private=true&hide_border=true&theme=jolly&layout=compact) |
+ ![GitHub Streak](https://streak-stats.demolab.com?user=jjgouveia&theme=synthwave&locale=pt_BR) | ![GitHub Streak](https://api.githubtrends.io/user/svg/jjgouveia/repos?time_range=one_year&include_private=True&group=other&theme=synthwaves)
 
 💬 Quer me conhecer?
 
@@ -56,8 +59,6 @@ const aboutMe = {
 </div>
 <br>
 <div>
-
-  ![Snake animation](https://github.com/jjgouveia/jjgouveia/blob/output/github-contribution-grid-snake.svg)
 
 </div>
 <br>
