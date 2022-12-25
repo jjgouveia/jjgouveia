@@ -43,7 +43,7 @@ const aboutMe = {
 
 | Minhas Estatísticas                                                                                                                                         | Principais Linguagens                                                                                                                                                  |
 | ------------------------------------------------------------------------------------------------------------------------------------------------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| ![jjgouveia's github stats](https://github-readme-stats.vercel.app/api?username=jjgouveia&show_icons=true&hide_border=true&count_private=true&theme=jolly) | ![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=jjgouveia&langs_count=10&count_private=true&hide_border=true&theme=jolly&layout=compact) |
+| ![jjgouveia's github stats](https://github-readme-stats-one-virid-55.vercel.app/api?username=jjgouveia&show_icons=true&hide_border=true&count_private=true&theme=jolly) | ![Top Languages](https://github-readme-stats-one-virid-55.vercel.app/api/top-langs/?username=jjgouveia&langs_count=10&count_private=true&hide_border=true&theme=jolly&layout=compact) |
 
 💬 Quer me conhecer?
 
