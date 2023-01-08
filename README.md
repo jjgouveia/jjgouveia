@@ -5,7 +5,7 @@
 
 ```javascript
 const aboutMe = {
-   briefDescription: "a strange carbon&coffee-based lifeform",
+   briefDescription: "a strange carbon&coffee-based lifeform and techonology passionate.",
    pronouns: "he" | "him",
    code: ["JavaScript", "HTML", "CSS", "NodeJS", "SQL", "noSQL", "TypeScript"],
    technologies: {
@@ -19,7 +19,8 @@ const aboutMe = {
          misc: ["Bash", "Chai", "Sinon", "Sequelize"]
       },
       databases: ["mySQL", "mongoDB", "sqLite"],
-      orm: ["Sequelize", "Mongoose", "Lucid" ],
+      orm: ["Sequelize", "Lucid" ],
+      odm: ["Mongoose"],
       misc: ["Docker", "Git", "Bash"],
    },
    languages: {
