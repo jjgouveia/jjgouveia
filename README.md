@@ -51,7 +51,7 @@ const aboutMe = {
 | Minhas Estatísticas                                                                                                                                         | Principais Linguagens                                                                                                                                                  |
 | ------------------------------------------------------------------------------------------------------------------------------------------------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | ![jjgouveia's github stats](https://github-readme-stats-one-virid-55.vercel.app/api?username=jjgouveia&show_icons=true&hide_border=true&include_all_commits=true&count_private=true&theme=jolly) | ![Top Languages](https://github-readme-stats-one-virid-55.vercel.app/api/top-langs/?username=jjgouveia&langs_count=10&include_all_commits=true&hide_border=true&theme=jolly&layout=compact) |
- ![GitHub Streak](https://streak-stats.demolab.com?user=jjgouveia&theme=synthwave&locale=pt_BR) | ![GitHub Streak](https://api.githubtrends.io/user/svg/jjgouveia/repos?time_range=one_year&include_private=True&group=other&theme=synthwaves)
+ ![GitHub Streak](https://streak-stats.demolab.com?user=jjgouveia&theme=synthwave&locale=pt_BR) | [![willianrod's wakatime stats](https://github-readme-stats.vercel.app/api/wakatime?username=gouvik)](https://github.com/anuraghazra/github-readme-stats)
 
 💬 Quer me conhecer?
 
