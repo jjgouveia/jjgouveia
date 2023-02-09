@@ -5,36 +5,38 @@
 
 ```javascript
 const aboutMe = {
-   briefDescription: "a strange carbon&coffee-based lifeform and techonology passionate.",
-   pronouns: "he" | "him",
-   code: ["JavaScript", "HTML", "CSS", "NodeJS", "SQL", "noSQL", "TypeScript"],
-   technologies: {
-      frontEnd: {
-         js: ["React", "Redux", "Angular"],
-         css: ["Bootstrap", "Material Design", "Tailwind CSS"],
-         misc: ["Jest", "RTL"]
-      },
-      backEnd: {
-         js: ["Node", "Express", "Adonis" "TypeScript"],
-         misc: ["Bash", "Chai", "Sinon", "Sequelize"]
-      },
-      databases: ["mySQL", "mongoDB", "sqLite"],
-      orm: ["Sequelize", "Lucid" ],
-      odm: ["Mongoose"],
-      misc: ["Docker", "Git", "Bash"],
-   },
-   languages: {
-      portuguese: {
-        level: "native"
+    briefDescription: "a strange carbon&coffee-based lifeform and techonology passionate.",
+    pronouns: "he" | "him",
+    code: ["JavaScript", "HTML", "CSS", "NodeJS", "SQL", "noSQL", "TypeScript"],
+    technologies: {
+        frontEnd: {
+            js: ["React", "Angular", "React Native"],
+            css: ["Bootstrap", "Material Design", "Tailwind CSS"],
+            misc: ["Jest", "RTL", "Redux", "ContextApi"],
+        },
+        backEnd: {
+            js: ["Node", "Express", "Adonis", "TypeScript"],
+            misc: ["Bash", "Chai", "Sinon"],
+        },
+        databases: ["mySQL", "mongoDB", "sqLite"],
+        orm: ["Sequelize", "Lucid"],
+        odm: ["Mongoose"],
+        misc: ["Docker", "Git", "Bash"],
     },
-      english: {
-        level: "intermediate-79"
-    }
-   },
-   soft-skills: ["comunicação", "proatividade", "autoliderança", "trabalho em equipe"],
-   currentOccupation: "lifelong learner",
-   phrase: "whatever you're looking for is also looking for you",
+    languages: {
+        portuguese: {
+            level: "native"
+        },
+        english: {
+            level: "intermediate-79"
+        }
+    },
+    softSkills: ["comunicação", "proatividade", "autoliderança", "trabalho em equipe", "aprender a aprender"],
+    currentOccupation: ["lifelong learner", "freelancer"],
+    phrase: "whatever you're looking for is also looking for you",
 };
+
+
 ```
 ### :octocat: Profile Views
 
