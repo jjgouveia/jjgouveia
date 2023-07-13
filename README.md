@@ -1,4 +1,4 @@
-<h1 style="text-align: center">Estudante de Desenvolvimento Web Full Stack na <a href="https://betrybe.com">Trybe</a>.</br>
+<h1 style="text-align: center">Desenvolvedor Web Full Stack
 </h1>
 
 
@@ -7,18 +7,19 @@
 const aboutMe = {
     briefDescription: "a strange carbon&coffee-based lifeform and techonology passionate.",
     pronouns: "he" | "him",
-    code: ["JavaScript", "HTML", "CSS", "NodeJS", "SQL", "noSQL", "TypeScript"],
+    code: ["HTML", "CSS", "NodeJS", "SQL", "noSQL", "TypeScript", "Java", "C#", "DotNet"],
     technologies: {
         frontEnd: {
             js: ["React", "Angular", "React Native"],
-            css: ["Bootstrap", "Material Design", "Tailwind CSS"],
+            css: ["Bootstrap", "Material Design", "Tailwind CSS", "SASS"],
             misc: ["Jest", "RTL", "Redux", "ContextApi"],
         },
         backEnd: {
-            js: ["Node", "Express", "Adonis", "TypeScript"],
-            misc: ["Bash", "Chai", "Sinon"],
+            js: ["Node", "TypeScript", "Java"],
+            java: ["Spring Boot", "Spring MVC"],
+            C#: ["ASP.NET", "Entity Framework"],
         },
-        databases: ["mySQL", "mongoDB", "sqLite"],
+        databases: ["mySQL", "mongoDB", "sqLite", "],
         orm: ["Sequelize", "Lucid"],
         odm: ["Mongoose"],
         misc: ["Docker", "Git", "Bash"],
