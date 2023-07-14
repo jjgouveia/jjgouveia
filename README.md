@@ -19,7 +19,7 @@ const aboutMe = {
             java: ["Spring Boot", "Spring MVC"],
             C#: ["ASP.NET", "Entity Framework"],
         },
-        databases: ["mySQL", "mongoDB", "sqLite", "],
+        databases: ["mySQL", "mongoDB", "sqLite"],
         orm: ["Sequelize", "Lucid"],
         odm: ["Mongoose"],
         misc: ["Docker", "Git", "Bash"],
