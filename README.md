@@ -7,7 +7,7 @@
 const aboutMe = {
     briefDescription: "a strange carbon&coffee-based lifeform and techonology passionate.",
     pronouns: "he" | "him",
-    code: ["HTML", "CSS", "NodeJS", "SQL", "noSQL", "TypeScript", "Java", "C#", "DotNet"],
+    code: ["TypeScript", "Java", "C#"],
     technologies: {
         frontEnd: {
             js: ["React", "Angular", "React Native"],
@@ -15,9 +15,9 @@ const aboutMe = {
             misc: ["Jest", "RTL", "Redux", "ContextApi"],
         },
         backEnd: {
-            js: ["Node", "TypeScript", "Java"],
+            js: ["Node", "TypeScript"],
             java: ["Spring Boot", "Spring MVC"],
-            C#: ["ASP.NET", "Entity Framework"],
+            C#: ["ASP.NET", "Entity Framework", ".NET"],
         },
         databases: ["mySQL", "mongoDB", "sqLite"],
         orm: ["Sequelize", "Lucid"],
