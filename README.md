@@ -10,7 +10,7 @@ const aboutMe = {
     code: ["TypeScript", "Java", "C#", "Python"],
     technologies: {
         frontEnd: {
-            js: ["React", "Angular", "React Native"],
+            js: ["React", "Angular", "React Native", "Next.js"],
             css: ["Bootstrap", "Material Design", "Tailwind CSS", "SASS"],
             misc: ["Jest", "RTL", "Redux", "ContextApi"],
         },
@@ -25,6 +25,8 @@ const aboutMe = {
         orm: ["Sequelize", "Lucid"],
         odm: ["Mongoose"],
         misc: ["Docker", "Git", "Bash"],
+        baas: ["Supabase", "Google Cloud Platform"]
+
     },
     languages: {
         portuguese: {
