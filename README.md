@@ -1,4 +1,4 @@
-<h1 style="text-align: center">Desenvolvedor Web Full Stack
+<h1 style="text-align: center">Desenvolvedor Full Stack
 </h1>
 
 
@@ -7,21 +7,20 @@
 const aboutMe = {
     briefDescription: "a strange carbon&coffee-based lifeform and techonology passionate.",
     pronouns: "he" | "him",
-    code: ["TypeScript", "Java", "C#", "Python"],
+    code: ["TypeScript", "Java", "C#"],
     technologies: {
         frontEnd: {
-            js: ["React", "Angular", "React Native", "Next.js"],
-            css: ["Bootstrap", "Material Design", "Tailwind CSS", "SASS"],
-            misc: ["Jest", "RTL", "Redux", "ContextApi"],
+            js: ["React", "Angular", "Next.js"],
+            css: ["Tailwind CSS", "SASS", "Bootstrap"],
+            misc: ["Jest", "RTL", "Redux"],
         },
         backEnd: {
             js: ["Node", "TypeScript"],
-            java: ["Spring Boot", "Spring MVC"],
-            C#: ["ASP.NET", "Entity Framework", ".NET"],
-            Python: ["Django", "FastAPI"],
+            java: ["Spring Boot"],
+            C#: ["ASP.NET", "Entity Framework", ".NET"]
 
         },
-        databases: ["mySQL", "mongoDB", "sqLite"],
+        databases: ["mySQL", "mongoDB"],
         orm: ["Sequelize", "Lucid"],
         odm: ["Mongoose"],
         misc: ["Docker", "Git", "Bash"],
