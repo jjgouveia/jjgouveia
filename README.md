@@ -34,10 +34,7 @@ const aboutMe = {
         english: {
             level: "intermediate-79"
         }
-    },
-    softSkills: ["comunicação", "proatividade", "autoliderança", "trabalho em equipe", "aprender a aprender"],
-    currentOccupation: ["lifelong learner", "freelancer"],
-    phrase: "whatever you're looking for is also looking for you",
+    }
 };
 
 
