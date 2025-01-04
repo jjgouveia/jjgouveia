@@ -1,41 +1,5 @@
-<h1 style="text-align: center">Desenvolvedor Full Stack
+<h1 style="text-align: center">Engenheiro de Software e Tech Lead
 </h1>
-
-
-
-```javascript
-const aboutMe = {
-    briefDescription: "a strange carbon&coffee-based lifeform and techonology passionate.",
-    pronouns: "he" | "him",
-    code: ["Python", "TypeScript", "Java", "C#"],
-    technologies: {
-        frontEnd: {
-            js: ["React", "Angular", "Next.js"],
-            css: ["Tailwind CSS", "SASS", "Bootstrap"],
-            misc: ["Jest", "RTL", "Redux"],
-        },
-        backEnd: {
-            js: ["Node", "TypeScript"],
-            java: ["Spring Boot"],
-            C#: ["ASP.NET", "Entity Framework", ".NET"]
-
-        },
-        databases: ["mySQL", "mongoDB"],
-        orm: ["Sequelize", "Lucid"],
-        odm: ["Mongoose"],
-        misc: ["Docker", "Git", "Bash"],
-        baas: ["Supabase", "Google Cloud Platform"]
-
-    },
-    languages: {
-        portuguese: {
-            level: "native"
-        },
-        english: {
-            level: "intermediate-79"
-        }
-    }
-};
 
 
 ```
@@ -75,4 +39,3 @@ const aboutMe = {
 
 </div>
 <br>
-<p>🧠 <spam style="font-style:italic">"No mundo tereis aflições, mas tente bom ânimo: Eu venci o mundo. João 16:33."</spam></p>
