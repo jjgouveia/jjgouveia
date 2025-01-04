@@ -3,6 +3,8 @@
 
 
 ```
+
+```
 ### :octocat: Profile Views
 
 [![PRs Welcome](https://komarev.com/ghpvc/?username=jjgouveia&label=Profile%20views&color=0e75b6&style=flat)](https://github.com/jjgouveia)
