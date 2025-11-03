@@ -1,10 +1,7 @@
-<h1 style="text-align: center">Engenheiro de Software e Tech Lead
+<h1 style="text-align:center">
+  CTO e Engenheiro de Software
 </h1>
 
-
-```
-
-```
 ### :octocat: Profile Views
 
 [![PRs Welcome](https://komarev.com/ghpvc/?username=jjgouveia&label=Profile%20views&color=0e75b6&style=flat)](https://github.com/jjgouveia)
