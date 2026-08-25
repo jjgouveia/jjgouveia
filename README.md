@@ -1,6 +1,6 @@
 <p align="center">
   <strong>Jarbas Gouveia Jr</strong><br>
-  <em>CTO na Ativos Precatórios — construo software que faz mais com menos, dos 140MB do LG P350 à IA em produção</em>
+  <em>CTO na Ativos Precatórios — construo software que faz mais com menos</em>
 </p>
 
 <p align="center">
