@@ -1,6 +1,6 @@
 <p align="center">
   <strong>Jarbas Gouveia Jr</strong><br>
-  <em>CTO na Ativos Precatórios · engenharia moldada na escassez, dos 140MB do LG P350 à escala judicial</em>
+  <em>CTO na Ativos Precatórios — construo software que faz mais com menos, dos 140MB do LG P350 à IA em produção</em>
 </p>
 
 <p align="center">
@@ -20,7 +20,7 @@ problema manual  →  automação enxuta  →  dado estruturado  →  decisão d
 ```
 
 - **Plataformas LegalTech** — SaaS de antecipação de precatórios: precificação, due diligence, CRM, KYC e pagamentos.
-- **IA aplicada a dados jurídicos** — orquestração multi-agente, GraphRAG, embeddings e retrieval com grounding sobre documentos jurídicos.
+- **IA aplicada a dados jurídicos** — orquestração multi-agente (LangGraph), GraphRAG, embeddings e retrieval com grounding sobre documentos jurídicos.
 - **Automação de gargalos** — RPAs e integrações que eliminam processo manual onde ele trava negócio. O registro favorito: um RPA que reduziu o recálculo de precatórios de **20 minutos para 2 segundos**.
 - **Ferramentas para desenvolvedores** — bibliotecas, extensões e filtros que tiram fricção do dia a dia.
 
@@ -32,13 +32,17 @@ problema manual  →  automação enxuta  →  dado estruturado  →  decisão d
 - **Nexo** — substituto interno do Dropbox: NestJS, Prisma, Socket.io, RBAC hierárquico, compartilhamento e auditoria LGPD-compliant.
 - **Ativos Finance** — backend NestJS + Prisma para o financeiro interno (ledger, contas, conciliação), integrado ao Celer via contrato de Operações.
 
-## Produtos e open source
+## Open source & pacotes
 
 - **[show-react](https://www.npmjs.com/package/show-react)** — renderização condicional declarativa no JSX, sem excesso de ternários e `&&`.
+- **[maestro-express-async-errors](https://www.npmjs.com/package/maestro-express-async-errors)** — camada segura de tratamento de erros assíncronos para middlewares Express.
 - **[Poetry Syntax Highlight](https://marketplace.visualstudio.com/items?itemName=jjgouveia.poetry-syntax-highlight)** — syntax highlighting de `pyproject.toml` para VS Code, construída com TextMate grammars durante o desenvolvimento do backend do Celer.
 - **[Manda Jobs](https://github.com/jjgouveia/mandajobs)** — filtro inteligente de vagas do LinkedIn com geração de queries booleanas.
-- **Pittaya UI** — biblioteca de componentes React.
-- **Emojify** — transformação de fotos em mosaicos de emojis.
+
+### Contribuições
+
+- **[pittaya-ui/ui](https://github.com/pittaya-ui/ui)** — principal contribuidor (65+ contribuições): componentes no registry, comando `remove` da CLI, sistema de styles/themes e schema de validação do registry.
+- **[Pittaya UI](https://github.com/jjgouveia?tab=repositories&q=pittaya)** — biblioteca de componentes React/Next.js.
 
 ## Trajetória
 
@@ -50,4 +54,25 @@ problema manual  →  automação enxuta  →  dado estruturado  →  decisão d
 
 ---
 
-Recife, Brasil · [LinkedIn](https://www.linkedin.com/in/jarbasgouveia) · [gouvik.dev@gmail.com](mailto:gouvik.dev@gmail.com)
+### 📈 Estatísticas
+
+| GitHub Stats | Top Languages |
+|---|---|
+| ![GitHub stats](https://github-readme-stats-one-virid-55.vercel.app/api?username=jjgouveia&show_icons=true&hide_border=true&include_all_commits=true&count_private=true&theme=jolly) | ![Top Languages](https://github-readme-stats-one-virid-55.vercel.app/api/top-langs/?username=jjgouveia&langs_count=10&include_all_commits=true&hide_border=true&theme=jolly&layout=compact) |
+
+![GitHub Streak](https://streak-stats.demolab.com?user=jjgouveia&theme=synthwave&locale=pt_BR)
+
+<a href="https://github.com/anuraghazra/github-readme-stats">
+  <img align="center" src="https://github-readme-stats.vercel.app/api/wakatime?username=gouvik&layout=compact&card_width=300" />
+</a>
+
+---
+
+<div align="center">
+  <a href="https://www.linkedin.com/in/jarbasgouveia"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white"></a>
+  <a href="https://api.whatsapp.com/send?phone=5581996122536"><img src="https://img.shields.io/badge/-WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white"></a>
+  <a href="mailto:gouvik.dev@gmail.com"><img src="https://img.shields.io/badge/-Gmail-%23333?style=for-the-badge&logo=gmail&logoColor=white"></a>
+  <a href="https://www.instagram.com/junior_gouveia/"><img src="https://img.shields.io/badge/-Instagram-%23E4405F?style=for-the-badge&logo=instagram&logoColor=white"></a>
+</div>
+
+Recife, Brasil
