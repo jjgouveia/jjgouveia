@@ -1,5 +1,5 @@
 <p align="center">
-  <strong>Jarbas Gouveia Jr</strong><br>
+  <strong>Jarbas Gouveia</strong><br>
   <em>CTO na Ativos Precatórios — construo software que faz mais com menos</em>
 </p>
 
