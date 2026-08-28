@@ -31,7 +31,7 @@ problema manual  →  automação enxuta  →  dado estruturado  →  decisão d
 - **CelerApp (front)** — Next.js App Router / React 19 / TypeScript, React Query, Cypress e quality gate de build.
 - **Nexo** — substituto interno do Dropbox: NestJS, Prisma, Socket.io, RBAC hierárquico, compartilhamento e auditoria LGPD-compliant.
 - **Ativos Finance** — backend NestJS + Prisma para o financeiro interno (ledger, contas, conciliação), integrado ao Celer via contrato de Operações.
-- **Page Comparison Tool** — especificação visual de mudanças em telas: pins numerados sobre imagens antes/depois, revisão por papel (Master/Manager/Employee), chat por tela com WebSocket e notificações. Também abriga o **Tasker** — um MCP server HTTP (8 tools) que expõe as tarefas para agentes de IA de qualquer repo, com autenticação por PAT, hash SHA-256 e botões de instalação de 1 clique para Cursor e Claude Code.
+- **Page Comparison Tool** — especificação visual de mudanças em telas: pins numerados sobre imagens antes/depois, revisão por papel (Master/Manager/Employee), chat por tela com WebSocket e notificações. Também abriga o **Tasker**, MCP server HTTP (8 tools) que expõe as tarefas para agentes de IA de qualquer repo, com autenticação por PAT, hash SHA-256 e botões de instalação de 1 clique para Cursor e Claude Code.
 
 ## Open source & pacotes
 
