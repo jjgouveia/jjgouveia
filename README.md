@@ -35,7 +35,7 @@ problema manual  →  automação enxuta  →  dado estruturado  →  decisão d
 
 ## Portal OAB-PE
 
-Portal co-branded com a Ordem dos Advogados do Brasil de Pernambuco: landing pública, identidade visual com tokens navy/vermelho OAB, autenticação por magic link, dashboard para advogados com tickets de suporte (dúvidas, Imposto de Renda) e agendamento via Cal.com self-hosted no Railway. Construído integrado ao ecossistema Celer (api-celer + ativos-cvld-front).
+Portal co-branded da Ativos com a Ordem dos Advogados do Brasil de Pernambuco: landing pública, identidade visual com tokens navy/vermelho OAB, autenticação por magic link, dashboard para advogados com tickets de suporte (dúvidas, Imposto de Renda) e agendamento via Cal.com self-hosted no Railway. Construído integrado ao ecossistema Celer (api-celer + ativos-cvld-front).
 
 ## Open source & pacotes
 
