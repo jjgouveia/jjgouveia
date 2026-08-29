@@ -33,6 +33,10 @@ problema manual  →  automação enxuta  →  dado estruturado  →  decisão d
 - **Ativos Finance** — backend NestJS + Prisma para o financeiro interno (ledger, contas, conciliação), integrado ao Celer via contrato de Operações.
 - **Tasker** — MCP server HTTP construído sobre o **Page Comparison Tool** (ferramenta interna da Ativos, similar ao Linear, para especificação visual de mudanças em telas). Expondo tarefas para agentes de IA de qualquer repo: 8 ferramentas (leitura, comentário, conclusão), autenticação por PAT com hash SHA-256, botões de instalação de 1 clique para Cursor e Claude Code, e deploy remoto no mesmo domínio do app.
 
+## Portal OAB-PE
+
+Portal co-branded com a Ordem dos Advogados do Brasil de Pernambuco: landing pública, identidade visual com tokens navy/vermelho OAB, autenticação por magic link, dashboard para advogados com tickets de suporte (dúvidas, Imposto de Renda) e agendamento via Cal.com self-hosted no Railway. Construído integrado ao ecossistema Celer (api-celer + ativos-cvld-front).
+
 ## Open source & pacotes
 
 - **[show-react](https://www.npmjs.com/package/show-react)** — renderização condicional declarativa no JSX, sem excesso de ternários e `&&`.
