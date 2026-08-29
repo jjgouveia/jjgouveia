@@ -35,7 +35,7 @@ problema manual  →  automação enxuta  →  dado estruturado  →  decisão d
 
 ## Portal OAB-PE
 
-Portal co-branded da Ativos com a Ordem dos Advogados do Brasil de Pernambuco: landing pública (NextAuth v5, magic link), dashboard para advogados com tickets, agendamento IR e biblioteca. Arquitetura distribuída em 3 repositórios — backend Django 5.2/DRF (`api-celer/portal_oab`) com modelo dedicado; landing própria (`Ativos-Labs/portal-oab-ativos`, Next.js 16.3 + React 19.2 + Tailwind 4 + Three.js); dashboard no app principal (`ativos-cvld-front`, Next.js 16 + TanStack Query / Zustand / Radix). V1 implementado (calculadora, tickets, agendamento, biblioteca) — verificado por `oab_ativos/portal/src/app/`; V2 de histórico autenticado ainda não no código (`PLAN-00-master.md` + `historico-calculos-tickets-v2.md`).
+Portal co-branded da Ativos com a Ordem dos Advogados do Brasil de Pernambuco (repo `Ativos-Labs/portal-oab-ativos`, deploy Vercel): landing pública, autenticação por magic link (NextAuth v5), dashboard para advogados com tickets, agendamento IR e biblioteca. Arquitetura distribuída em 3 repositórios — backend Django 5.2/DRF (`api-celer/portal_oab`: modelo dedicado de ticket, identidade, magic link, templates de e-mail) e landing (Next.js 16.3 + React 19.2 + Tailwind 4 + Three.js, verificado por `git log --author="Jarbas Gouveia"`). Dashboard autenticado integrado no app principal (`ativos-cvld-front`, Next.js 16 + TanStack Query / Zustand / Radix). V1 implementado (calculadora, tickets, agendamento, biblioteca, resposta de tickets Fase 3.1); V2 de histórico autenticado ainda não no código (`PLAN-00-master.md`).
 
 ## Open source & pacotes
 
