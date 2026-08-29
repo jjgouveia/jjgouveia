@@ -33,9 +33,30 @@ problema manual  →  automação enxuta  →  dado estruturado  →  decisão d
 - **Ativos Finance** — backend NestJS + Prisma para o financeiro interno (ledger, contas, conciliação), integrado ao Celer via contrato de Operações.
 - **Tasker** — MCP server HTTP construído sobre o **Page Comparison Tool** (ferramenta interna da Ativos, similar ao Linear, para especificação visual de mudanças em telas). Expondo tarefas para agentes de IA de qualquer repo: 8 ferramentas (leitura, comentário, conclusão), autenticação por PAT com hash SHA-256, botões de instalação de 1 clique para Cursor e Claude Code, e deploy remoto no mesmo domínio do app.
 
-## Portal OAB-PE
+## Portal OAB-PE × Ativos
 
-Portal co-branded da Ativos com a Ordem dos Advogados do Brasil de Pernambuco (repo `Ativos-Labs/portal-oab-ativos`, deploy Vercel): landing pública, autenticação por magic link (NextAuth v5), dashboard para advogados com tickets, agendamento IR e biblioteca. Arquitetura distribuída em 3 repositórios — backend Django 5.2/DRF (`api-celer/portal_oab`: modelo dedicado de ticket, identidade, magic link, templates de e-mail) e landing (Next.js 16.3 + React 19.2 + Tailwind 4 + Three.js, verificado por `git log --author="Jarbas Gouveia"`). Dashboard autenticado integrado no app principal (`ativos-cvld-front`, Next.js 16 + TanStack Query / Zustand / Radix). V1 implementado (calculadora, tickets, agendamento, biblioteca, resposta de tickets Fase 3.1); V2 de histórico autenticado ainda não no código (`PLAN-00-master.md`).
+[Portal co-brand](https://portal-oab-ativos.vercel.app) da **Ativos Precatórios** com a **OAB-PE** (Ordem dos Advogados do Brasil — Seccional Pernambuco): canal digital para advogados consultarem e acompanharem precatórios com identidade institucional da Ordem e operação da Ativos.
+
+**O que o MVP entrega**
+
+- Landing pública co-brand (navy `#11245e` + vermelho OAB `#c8102e`, tipografia Barlow) com selo *powered by Ativos*
+- **Calculadora** de atualização de precatório (mesmo motor financeiro do Celer, exposto via API Key escopada)
+- **Tirar Dúvida** — tickets com protocolo público, acompanhamento e resposta por e-mail
+- **Suporte de IR** — agendamento via Cal.com self-hosted (Railway), com gate de OAB/PE
+- **Biblioteca de materiais** — CMS no Airtable, listagem RSC, download fail-closed e analytics GA4
+- **Acesso por magic link** (NextAuth v5 / Auth.js) — solicitação, aprovação no Admin e sessão JWT sem senha
+- CTA comercial **“Quero vender meu precatório”** → lead no CRM com origem `Portal OAB-PE`
+
+**Arquitetura**
+
+| Camada | Stack / papel |
+|---|---|
+| Front (`Ativos-Labs/portal-oab-ativos`) | Next.js 16 / React 19 / Tailwind 4 / TypeScript — App Router, route handlers como BFF (API keys só no server), Three.js no visual da landing |
+| API (`api-celer` · `portal_oab`) | Django 5.2 / DRF — calculadora, tickets, identidade (`PortalOabAdvogado`), magic link (hash SHA-256, TTL, uso único), leads e e-mails com brand OAB |
+| Agendamento | Cal.com self-hosted no Railway |
+| Conteúdo | Airtable (`Materiais`) — categorias estáveis + visibilidade público/restrito |
+
+V1 (fases 0–4 + resposta de tickets) implementado e em produção na Vercel. V2 prevista: histórico autenticado de cálculos e tickets do advogado.
 
 ## Open source & pacotes
 
