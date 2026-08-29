@@ -35,7 +35,7 @@ problema manual  →  automação enxuta  →  dado estruturado  →  decisão d
 
 ## Portal OAB-PE
 
-Portal co-branded da Ativos com a Ordem dos Advogados do Brasil de Pernambuco: landing pública, autenticação por magic link, dashboard para advogados com tickets de suporte (dúvidas, Imposto de Renda) e agendamento via Cal.com self-hosted no Railway. Integrado ao ecossistema Celer: Django/DRF no backend, Next.js App Router + React 19 no frontend.
+Portal co-branded da Ativos com a Ordem dos Advogados do Brasil de Pernambuco: landing pública, autenticação por magic link, dashboard para advogados com tickets de suporte (dúvidas, Imposto de Renda) e agendamento via Cal.com self-hosted no Railway. Backend em Django 5.2 / DRF com modelo dedicado de ticket e identidade; frontend em Next.js 16 + React 19, TanStack Query, Zustand e Radix UI.
 
 ## Open source & pacotes
 
