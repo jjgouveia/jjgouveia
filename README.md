@@ -1,104 +1,26 @@
-<p align="center">
-  <strong>Jarbas Gouveia</strong><br>
-  <em>CTO na Ativos Precatórios — construo software que faz mais com menos</em>
-</p>
+### Jarbas Gouveia
 
-<p align="center">
-  <a href="https://www.linkedin.com/in/jarbasgouveia">LinkedIn</a> ·
-  <a href="https://jjgouveia.github.io/">Site</a> ·
-  <a href="mailto:gouvik.dev@gmail.com">Email</a>
-</p>
+CTO e sócio da [Ativos Precatórios](https://github.com/ativos-tecnologia). Faço software que tira operação manual do caminho.
 
-CTO e sócio da [Ativos Precatórios](https://github.com/ativos-tecnologia), onde lidero a plataforma **Celer** — SaaS que estrutura a antecipação de precatórios no Brasil — e o **Ativos Intelligence**, nosso assistente de IA multi-agente para operações jurídicas e financeiras.
+[LinkedIn](https://www.linkedin.com/in/jarbasgouveia) · [Email](mailto:gouvik.dev@gmail.com)
 
-Comecei há 13+ anos na base do sistema operacional: desenvolvedor Android e mantenedor independente de Custom ROMs — incluindo a CyanogenMod — para o LG P350, portando seis versões do Android para um hardware abandonado pela fabricante. A escola da escassez ainda guia meu critério: **software bom é o que desperdiça menos**.
+Meu critério é simples: software bom desperdiça menos. Processo chato vira dado, dado vira decisão. Um recálculo de precatório que levava 20 minutos passou a levar 2 segundos depois de uma automação, e desde então é isso que eu procuro em tudo que construo.
 
-## O que construo
+## Na Ativos
 
-```text
-problema manual  →  automação enxuta  →  dado estruturado  →  decisão de negócio
-```
+- **Celer**: SaaS de antecipação de precatórios. Precificação, due diligence, CRM, KYC e pagamento no mesmo fluxo. Django 5, DRF, Celery e Postgres com pgvector.
+- **Ativos Intelligence**: assistente de IA multi-agente pro jurídico e pro financeiro, em LangGraph. Cada release de agente passa por golden set antes de ir pra produção.
+- **[Portal OAB-PE × Ativos](https://portal-oab-ativos.vercel.app)**: canal pros advogados de Pernambuco consultarem e acompanharem precatórios. Usa o mesmo motor de cálculo do Celer.
+- **Nexo**: o drive interno que substituiu o Dropbox, com permissão por hierarquia e trilha de auditoria.
 
-- **Plataformas LegalTech** — SaaS de antecipação de precatórios: precificação, due diligence, CRM, KYC e pagamentos.
-- **IA aplicada a dados jurídicos** — orquestração multi-agente (LangGraph), GraphRAG, embeddings e retrieval com grounding sobre documentos jurídicos.
-- **Automação de gargalos** — RPAs e integrações que eliminam processo manual onde ele trava negócio. O registro favorito: um RPA que reduziu o recálculo de precatórios de **20 minutos para 2 segundos**.
-- **Ferramentas para desenvolvedores** — bibliotecas, extensões e filtros que tiram fricção do dia a dia.
+## Open source
 
-## Na prática: o ecossistema Ativos
+- **[mandajobs](https://github.com/jjgouveia/mandajobs)**: encontra vagas de tecnologia no LinkedIn e na web.
+- **[maestro-express-async-errors](https://www.npmjs.com/package/maestro-express-async-errors)**: trata erro assíncrono em middleware Express, sem dependência.
+- **[show-react](https://www.npmjs.com/package/show-react)**: renderização condicional no JSX sem pilha de ternário.
+- **[Poetry Syntax Highlight](https://marketplace.visualstudio.com/items?itemName=jarbasgouveia.poetry-syntax-highlight)**: realce de `pyproject.toml` no VS Code. Nasceu durante o backend do Celer.
+- Contribuidor principal do **[pittaya-ui/ui](https://github.com/pittaya-ui/ui)**.
 
-- **Celer (API)** — Django 5 / DRF, Celery, Postgres + pgvector, Redis e MongoDB. Domínio em camadas Clean/DDD (`core` puro, `adapters`, infra assíncrona), multi-tenant por host, RBAC híbrido e calendário de prazos judiciais com dias úteis.
-- **Ativos Intelligence** — assistente de IA construído sobre **LangGraph**: registro de agentes (chat/evento/agendamento), roteamento de grafos, GraphRAG com reranker, cache semântico, *grounding guard* contra alucinação, modo sombra para rollout seguro e **gates de regressão com golden sets** validando cada release de agente antes de ir a produção.
-- **CelerApp (front)** — Next.js App Router / React 19 / TypeScript, React Query, Cypress e quality gate de build.
-- **Nexo** — substituto interno do Dropbox: NestJS, Prisma, Socket.io, RBAC hierárquico, compartilhamento e auditoria LGPD-compliant.
-- **Ativos Finance** — backend NestJS + Prisma para o financeiro interno (ledger, contas, conciliação), integrado ao Celer via contrato de Operações.
-- **Tasker** — MCP server HTTP construído sobre o **Page Comparison Tool** (ferramenta interna da Ativos, similar ao Linear, para especificação visual de mudanças em telas). Expondo tarefas para agentes de IA de qualquer repo: 8 ferramentas (leitura, comentário, conclusão), autenticação por PAT com hash SHA-256, botões de instalação de 1 clique para Cursor e Claude Code, e deploy remoto no mesmo domínio do app.
+## De onde vim
 
-## Portal OAB-PE × Ativos
-
-[Portal co-brand](https://portal-oab-ativos.vercel.app) da **Ativos Precatórios** com a **OAB-PE** (Ordem dos Advogados do Brasil — Seccional Pernambuco): canal digital para advogados consultarem e acompanharem precatórios com identidade institucional da Ordem e operação da Ativos.
-
-**O que o MVP entrega**
-
-- Landing pública co-brand (navy `#11245e` + vermelho OAB `#c8102e`, tipografia Barlow) com selo *powered by Ativos*
-- **Calculadora** de atualização de precatório (mesmo motor financeiro do Celer, exposto via API Key escopada)
-- **Tirar Dúvida** — tickets com protocolo público, acompanhamento e resposta por e-mail
-- **Suporte de IR** — agendamento via Cal.com self-hosted (Railway), com gate de OAB/PE
-- **Biblioteca de materiais** — CMS no Airtable, listagem RSC, download fail-closed e analytics GA4
-- **Acesso por magic link** (NextAuth v5 / Auth.js) — solicitação, aprovação no Admin e sessão JWT sem senha
-- CTA comercial **“Quero vender meu precatório”** → lead no CRM com origem `Portal OAB-PE`
-
-**Arquitetura**
-
-| Camada | Stack / papel |
-|---|---|
-| Front (`Ativos-Labs/portal-oab-ativos`) | Next.js 16 / React 19 / Tailwind 4 / TypeScript — App Router, route handlers como BFF (API keys só no server), Three.js no visual da landing |
-| API (`api-celer` · `portal_oab`) | Django 5.2 / DRF — calculadora, tickets, identidade (`PortalOabAdvogado`), magic link (hash SHA-256, TTL, uso único), leads e e-mails com brand OAB |
-| Agendamento | Cal.com self-hosted no Railway |
-| Conteúdo | Airtable (`Materiais`) — categorias estáveis + visibilidade público/restrito |
-
-V1 (fases 0–4 + resposta de tickets) implementado e em produção na Vercel. V2 prevista: histórico autenticado de cálculos e tickets do advogado.
-
-## Open source & pacotes
-
-- **[show-react](https://www.npmjs.com/package/show-react)** — renderização condicional declarativa no JSX, sem excesso de ternários e `&&`.
-- **[maestro-express-async-errors](https://www.npmjs.com/package/maestro-express-async-errors)** — camada segura de tratamento de erros assíncronos para middlewares Express.
-- **[Poetry Syntax Highlight](https://marketplace.visualstudio.com/items?itemName=jjgouveia.poetry-syntax-highlight)** — syntax highlighting de `pyproject.toml` para VS Code, construída com TextMate grammars durante o desenvolvimento do backend do Celer.
-- **[Manda Jobs](https://github.com/jjgouveia/mandajobs)** — filtro inteligente de vagas do LinkedIn com geração de queries booleanas.
-
-### Contribuições
-
-- **[pittaya-ui/ui](https://github.com/pittaya-ui/ui)** — principal contribuidor (65+ contribuições): componentes no registry, comando `remove` da CLI, sistema de styles/themes e schema de validação do registry.
-- **[Pittaya UI](https://github.com/jjgouveia?tab=repositories&q=pittaya)** — biblioteca de componentes React/Next.js.
-
-## Trajetória
-
-**Ativos Precatórios** (CTO & sócio) ← **bementor** (full stack: NestJS, Prisma, CI/CD, performance React) ← **Skill Labs** (sócio & CTO) ← **Programador.TV** (ASP.NET) ← **LG P350 custom ROMs** (onde tudo começou).
-
-## Stack
-
-`Python` · `Django/DRF` · `LangGraph` · `RAG/GraphRAG` · `pgvector` · `TypeScript` · `NestJS` · `Prisma` · `React/Next.js` · `Celery` · `PostgreSQL` · `Redis` · `MongoDB` · `Docker`
-
----
-
-### 📈 Estatísticas
-
-| GitHub Stats | Top Languages |
-|---|---|
-| ![GitHub stats](https://github-readme-stats-one-virid-55.vercel.app/api?username=jjgouveia&show_icons=true&hide_border=true&include_all_commits=true&count_private=true&theme=jolly) | ![Top Languages](https://github-readme-stats-one-virid-55.vercel.app/api/top-langs/?username=jjgouveia&langs_count=10&include_all_commits=true&hide_border=true&theme=jolly&layout=compact) |
-
-![GitHub Streak](https://streak-stats.demolab.com?user=jjgouveia&theme=synthwave&locale=pt_BR)
-
-<a href="https://github.com/anuraghazra/github-readme-stats">
-  <img align="center" src="https://github-readme-stats.vercel.app/api/wakatime?username=gouvik&layout=compact&card_width=300" />
-</a>
-
----
-
-<div align="center">
-  <a href="https://www.linkedin.com/in/jarbasgouveia"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white"></a>
-  <a href="https://api.whatsapp.com/send?phone=5581996122536"><img src="https://img.shields.io/badge/-WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white"></a>
-  <a href="mailto:gouvik.dev@gmail.com"><img src="https://img.shields.io/badge/-Gmail-%23333?style=for-the-badge&logo=gmail&logoColor=white"></a>
-  <a href="https://www.instagram.com/junior_gouveia/"><img src="https://img.shields.io/badge/-Instagram-%23E4405F?style=for-the-badge&logo=instagram&logoColor=white"></a>
-</div>
-
-Recife, Brasil
+Comecei há mais de 13 anos mantendo Custom ROMs (CyanogenMod) pro LG P350, um aparelho que a fabricante já tinha abandonado. Depois vieram Programador.TV, Skill Labs como CTO, bementor e a Ativos.
