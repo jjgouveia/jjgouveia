@@ -26,4 +26,6 @@ Cofundador da [Pittaya](https://github.com/pittaya-ui), com Marcos Bueno e Lucas
 
 ## De onde vim
 
-Comecei há mais de 13 anos mantendo Custom ROMs (CyanogenMod) pro LG P350, um aparelho que a fabricante já tinha abandonado. Depois vieram Programador.TV, Skill Labs como CTO, bementor e a Ativos.
+Comecei há mais de 13 anos como "Jr Gouveia", mantendo CyanogenMod e a ROM Androm pro LG P350, um aparelho que a LG largou no Android 2.2. Levei ele do 2.3 até o 4.4 com 140 MB de armazenamento interno e 256 MB de RAM, e compilei o módulo `tun.ko` pra ele rodar OpenVPN. Foi ali que aprendi que software bom desperdiça menos.
+
+Depois vieram Programador.TV, Skill Labs como CTO e bementor, onde a API ficou 43% mais rápida e as páginas críticas passaram a carregar em 3 s em vez de 11 s. Hoje estou na Ativos.
