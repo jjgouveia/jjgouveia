@@ -19,7 +19,10 @@ Meu critério é simples: software bom desperdiça menos. Processo chato vira da
 - **[maestro-express-async-errors](https://www.npmjs.com/package/maestro-express-async-errors)**: trata erro assíncrono em middleware Express, sem dependência.
 - **[show-react](https://www.npmjs.com/package/show-react)**: renderização condicional no JSX sem pilha de ternário.
 - **[Poetry Syntax Highlight](https://marketplace.visualstudio.com/items?itemName=jarbasgouveia.poetry-syntax-highlight)**: realce de `pyproject.toml` no VS Code. Nasceu durante o backend do Celer.
-- Contribuidor principal do **[pittaya-ui/ui](https://github.com/pittaya-ui/ui)**.
+
+## Pittaya
+
+Cofundador da [Pittaya](https://github.com/pittaya-ui), com Marcos Bueno e Lucas Ribeiro. A [Pittaya UI](https://github.com/pittaya-ui/ui) é a nossa biblioteca de componentes React com CLI.
 
 ## De onde vim
 
